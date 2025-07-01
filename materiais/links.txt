@@ -1,0 +1,9 @@
+uv: https://astral.sh/blog/uv
+
+IAs para pesquisa:
+    - Perplexity: https://www.perplexity.ai/
+    - Scispace: https://scispace.com/
+    - Consensus: https://consensus.app/
+    - Elicit: https://elicit.com/
+    - ResearchRabbit: https://www.researchrabbit.ai/
+    - ScienceOS: https://www.scienceos.ai/
