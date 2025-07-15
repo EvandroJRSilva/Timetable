@@ -7,3 +7,6 @@ IAs para pesquisa:
     - Elicit: https://elicit.com/
     - ResearchRabbit: https://www.researchrabbit.ai/
     - ScienceOS: https://www.scienceos.ai/
+
+Tables Generator:
+    - https://www.tablesgenerator.com/markdown_tables
