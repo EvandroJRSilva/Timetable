@@ -1,5 +1,3 @@
-from typing import List, Tuple
-
 class Disciplina:
     """
     Atributos:
@@ -39,23 +37,11 @@ class Turma:
         
         
         
-class Horario:
-    """
-    Atributos
-        h_inicio (str): hora de início do horário.
-        h_fim    (str): hora de fim do horário.
-    """
-    def __init__(self, h_inicio, h_fim):
-        self.h_inicio = h_inicio
-        self.h_fim = h_fim
-        
-        
-        
 class Professor:
     """
     Atributos
         nome (str): Nome do(a) professor(a).
-        horarios_disponibilidade (list[tuple[str, Horario]]): Lista de tuplas (dia, horário) representando os dias e horários disponíveis.
+        horarios_disponibilidade (list[tuple[str, tuple[str,str]]]): Lista de tuplas (dia, (horário início, horário fim)) representando os dias e horários disponíveis.
         preferencia_disciplina (list[Disciplina]): Lista de disciplinas que o(a) professor(a) prefere ministrar.
     """
     
@@ -81,7 +67,7 @@ class Aula:
         
         dia (str): dia em que a aula deve ocorrer. Exemplo: 'Seg'.
         
-        horario (list[Horario]): uma lista de objetos da classe Horário. A aula pode consistir em somente 1 horário, ou, como ocorre na maioria das vezes, consiste em 2 horários.
+        horario (list[tuple[str, str]]): uma lista de tuplas de horários. A aula pode consistir em somente 1 horário, ou até 4.
     """
     
     def __init__(self, id=0, modalidade=0, *,disciplina, professor, turma, dia, horario):

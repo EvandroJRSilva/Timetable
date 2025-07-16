@@ -10,3 +10,6 @@ IAs para pesquisa:
 
 Tables Generator:
     - https://www.tablesgenerator.com/markdown_tables
+
+A Typical directory structure for running tests using unittest
+    - https://gist.github.com/tasdikrahman/2bdb3fb31136a3768fac

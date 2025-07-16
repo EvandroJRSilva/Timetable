@@ -1,0 +1,19 @@
+[project]
+name = "timetable"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+authors = [
+    {name = "LucasAll-dev",email = "jl012593@gmail.com"},
+    {name = "Rômulo Sousa"},
+    {name = "Evandro J.R. Silva", email = "ejrs.profissional@gmail.com"}
+]
+requires-python = ">=3.13.3"
+dependencies = [
+    "ipykernel==6.29.5",
+    "numpy==2.3.1"
+]
+
+[build-system]
+requires = ["uv_build>=0.6.14,<0.7"]
+build-backend = "uv_build"
